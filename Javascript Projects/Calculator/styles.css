@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", san-serif;
+}
+
+.container {
+    background-color: rgb(2, 2, 43);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    margin-bottom: 5px;
+}
+
+.row .button {
+    flex: 1;
+}
+
+.row .button.long {
+    flex: 2;
+}
+
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
